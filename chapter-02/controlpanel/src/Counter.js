@@ -18,6 +18,8 @@ class Counter extends Component {
     }
   }
 
+  // getInitialState()和getDefaultProps只有用React.createClass方法创造的组建类才会发生作用
+
   /*
   getInitialState() {
     console.log('enter getInitialState');
